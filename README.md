@@ -12,3 +12,4 @@ Needs the .NET 8 SDK or newer.
 - Percentage discounts
 - Free shipping from 50 euro
 - Export a cart to CSV
+- Total price (incl. shipping)
