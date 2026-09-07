@@ -13,3 +13,11 @@ Needs the .NET 8 SDK or newer.
 - Free shipping from 50 euro
 - Export a cart to CSV
 - Total price (incl. shipping)
+
+## Usage
+```csharp
+using MiniShop;
+
+var cart = new List<Item> { new("Pen", 1.25m, 4) };
+Console.WriteLine(Cart.Total(cart, discount: 10));
+```
